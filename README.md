@@ -1,4 +1,4 @@
-this project is not my original idea but i was coding along as a response with Udemy Max Schwarzmueller 's Course :  React - The Complete Guide (incl Hooks, React Router, Redux) . i've written by myself all the React code found in here  without copying anything except the CSS codes used for styling.
+this project is not my original idea but i was coding along as a response with Udemy Max Schwarzmueller 's Course :  React - The Complete Guide (incl Hooks, React Router, Redux) . i've written by myself all the React code found in here  without copying anything except the CSS scripts used for styling.
 instructions : 
 to run the React.js-ExpensesTracker project you have to have node.js installed on your machine then : 
         1-Download it 
