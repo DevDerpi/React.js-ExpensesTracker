@@ -1,2 +1,1 @@
-# React.js-ExpensesTracker
-This Project is done as a practice for React.js Basics as resposne to Max's Udemy Course React-The Complete Guide 
+this project is not my original idea but i was coding along as a response with Udemy Max Schwarzmueller Course :  React - The Complete Guide (incl Hooks, React Router, Redux) . All the React code found in here i've written by myself without copying anything except the CSS codes used for styling.
