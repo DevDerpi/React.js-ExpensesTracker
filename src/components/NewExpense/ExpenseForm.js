@@ -40,12 +40,12 @@ const ExpenseFrom = (props) => {
           <input type="text" onChange={titleChangeHandler} value={enteredTitle}/>
         </div>
         <div className="new-expense__control">
-          <label>Amount : </label>
+          <label>Price   : </label>
           <input
             type="number"
             min="0.01"
             step="0.01"
-            max="50"
+            max="200"
             onChange={amountChangeHandler}
             value={enteredAmount}
           />
