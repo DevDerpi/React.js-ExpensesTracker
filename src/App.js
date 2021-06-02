@@ -1,6 +1,8 @@
 import React, { useState } from "react";
-import NewExpense from "./components/NewExpense/NewExpense";
-import Expenses from "./components/Expenses/Expenses";
+import Layout from "./components/layout/Layout";
+import { Route, Switch } from "react-router-dom";
+import ExpensesPage from "./components/Pages/ExpenseP";
+import NewExpensesPage from "./components/Pages/NewExpenses";
 const INITIAL_EXPENSES = [
   { id: "el2", title: "Chipsy", amount: 5, date: new Date(2021, 3, 15) },
   { id: "el1", title: "Zbady", amount: 2.5, date: new Date(2021, 3, 14) },
@@ -42,12 +44,16 @@ function App() {
     });
   };
   return (
-    <div>
-      <h1>Expenses Application </h1>
-      <NewExpense onNewExpenseAdd={addNewExpenseHandler} />
-      <Expenses expenses={expenses}></Expenses>
-    </div>
+    <Layout>
+      <Switch>
+        <Route path="/Expenses" exact>
+          <ExpensesPage />
+        </Route>
+        <Route path="/NewExpense">
+          <NewExpensesPage />
+        </Route>
+      </Switch>
+    </Layout>
   );
 }
-
 export default App;
