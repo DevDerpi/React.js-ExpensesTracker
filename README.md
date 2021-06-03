@@ -6,6 +6,6 @@ this project is not my original idea but i was coding along as a response with U
 
 ### How to run the application? 
 <p>Simply after downloading it navigate into a specific code snapshot folder via the cd command in your command prompt or terminal first,
-Then run npm install to install all required dependencies (this will create a /node_modules folder). </p>
+Then type "npm install" to install all required dependencies (this will create a /node_modules folder) , Then type the command "npm start" this will start the development server , and you can navigate to url "http://localhost:3000/" in any browser of your choice. </p>
 
 DISCALIMER : This project is done as a practice project for educational purposes, and i don't owe the copyrights of it , copyrights belong to Max Schwarzmueller of Academind , and you can find the course @ https://www.udemy.com/course/react-the-complete-guide-incl-redux
