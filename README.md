@@ -5,6 +5,6 @@ this project is not my original idea but i was coding along as a response with U
 
 
 ### Website :  
-<a href=" https://expenses-a2d6c.web.app/" > Expenses Tracker Application </a>
+<a href="https://expenses-a2d6c.web.app/" > Expenses Tracker Application </a>
 
 DISCALIMER : This project is done as a practice project for educational purposes with additional features i added by myself, and i don't owe the copyrights of it , copyrights belong to Max Schwarzmueller of Academind , and you can find the course @ https://www.udemy.com/course/react-the-complete-guide-incl-redux
